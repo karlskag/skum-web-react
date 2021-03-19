@@ -21,7 +21,7 @@ name: Build and Deploy a Container
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT }}
   SERVICE: skum-web
-  REGION: europe-noth1
+  REGION: europe-north1
 
 jobs:
   deploy:
